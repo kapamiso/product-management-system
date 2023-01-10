@@ -1,0 +1,46 @@
+.icon{
+    color: white;
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.icon-color-orange{
+    background: linear-gradient(195deg, rgba(238, 86, 39, 0.867), #c9340f);
+}
+.icon-color-green{
+    background: linear-gradient(195deg, rgba(28, 207, 88, 0.867), #1c944e);
+}
+.icon-color-blue{
+    background: linear-gradient(195deg, rgba(28, 186, 207, 0.867), #3d8094);
+}
+.icon-color-purple{
+    background: linear-gradient(195deg, rgba(177, 44, 238, 0.867), #43256b);
+}
+
+.icon-small{
+    width: 10px;
+    height: 10px;
+}
+.icon-medium{
+    width: 24px;
+    height: 24px;
+}
+.icon-big{
+    width: 44px;
+    height: 44px;
+}
+.icon-huge{
+    width: 4em;
+    height: 4em;
+}
+
+.icon-circle{
+    border-radius: 100%;
+}
+

@@ -1,0 +1,5 @@
+.responsive-column{
+    display: flex;
+    flex-wrap: wrap;
+}
+

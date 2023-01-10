@@ -1,0 +1,27 @@
+.info-card{
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+}
+.info-card > :nth-child(1){
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    grid-template-rows: 28px 40px 20px;
+    width: 100%;
+}
+.info-card > :nth-child(1) > :nth-child(1){
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.info-card > :nth-child(1) > :nth-child(2){
+    font-weight: 900;
+    font-size: 1.3em;   
+}
+/*Icon */
+.info-card > :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

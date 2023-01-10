@@ -1,0 +1,14 @@
+.uptobottom{
+    animation: uptobottom 1s ease;
+}
+.statetobottom{
+    animation: statetobottom 1s ease;
+}
+
+@keyframes uptobottom {
+    from{transform: translate(0px, -1000px);}
+}
+
+@keyframes statetobottom {
+    to{transform: translate(0px, 1000px);}
+}

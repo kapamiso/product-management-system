@@ -1,0 +1,12 @@
+.layout-navigator{
+    height: 100%;
+    width: var(--sidemenu-width);
+    align-items: center;
+    display: flex;
+    position: fixed;
+}
+
+
+
+
+

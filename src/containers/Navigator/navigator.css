@@ -1,0 +1,30 @@
+.navigator{
+    height: calc(100% - 40px);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    padding: 20px;
+
+}
+
+.navigator-header{
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigator-separator{
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent);
+    height: 1px;
+    width: 100%;
+    opacity: .35;
+    margin-bottom: 0.5em;
+}
+
+.navigator-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

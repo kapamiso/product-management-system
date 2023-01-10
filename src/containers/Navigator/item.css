@@ -1,0 +1,19 @@
+.item{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-radius: 15px;
+    border-style: none;
+    border-width: 1px;
+    border-color: lightgray;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: #eeeeee;
+}
+

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+:root{
+    --sidemenu-width: 300px;
+    --card-color: #fbf8f8;
+    --app-background-color: rgb(235, 235, 235);
+    --app-background-topbar-color: rgb(236, 81, 81);
+    --font-primary-color: #4d4d4d;
+}
+
+@media only screen and (max-width: 800px) {
+    /* For tablets and mobile*/
+    :root{
+        --sidemenu-width: 0px !important;
+    }
+    .phone-hide{
+        display: none !important;
+    }
+
+}
+
+html{
+    background-color: var(--app-background-color);
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: var(--font-primary-color);
+}
+
+.card{
+    flex-grow: 1;
+    background-color: var(--card-color);
+    box-shadow: 0px 0px 20px 5px rgb(1, 1, 1, 10%);
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}

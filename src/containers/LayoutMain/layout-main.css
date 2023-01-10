@@ -1,0 +1,17 @@
+.layout-main{
+    width: 100%;
+    margin-left: var(--sidemenu-width);
+    z-index: 1;
+}
+
+.layout-content{
+    padding: 15px;
+    z-index: 1;
+}
+.backpage{
+    background: var(--app-background-topbar-color);
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
